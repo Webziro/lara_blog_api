@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Your custom styles below */
+body {
+    font-family: 'Nunito', sans-serif; /* Example font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-header {
+    background-color: #4CAF50; /* A nice green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.custom-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
